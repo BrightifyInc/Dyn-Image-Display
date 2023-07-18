@@ -1,0 +1,34 @@
+HOW TO CREATE A NEW REACT APP:
+npx create-react-app myreactapp
+
+//
+HOW TO START SERVER
+npm run start
+
+//
+npm install tailwindcss
+npx tailwindcss in it
+create a postcss.config.js file in the main project directory
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  }
+}
+then npm install autoprefixer
+
+npm install postcss-cli
+
+//
+create a index.js file inside src directory/folder
+then 
+import ReactDOM from "react-dom";
+NOTE: The responsibility of index.js is to render into the dom
+
+//
+create a App.js file inside src directory/folder
+then 
+import React from "react";
+this is where you should create your app (functions)
+
+//
