@@ -85,7 +85,7 @@ export default function Images() {
                 >
                     {images.map((img, index) => (
 
-                        <motion.div className='w-1/5 p-1 border flex justify-center' 
+                        <motion.div className='w-80 p-1 border flex justify-center' 
                             key={index} 
                             layoutId={ img.urls.regular }
                             initial={{ opacity: 0 }}
