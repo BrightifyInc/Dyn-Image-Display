@@ -56,9 +56,9 @@ export default function Tensorflow() {
                     className='p-2 w-80 rounded bg-green-600 text-white hover:bg-green-400' 
                     >
 
-                    {!isLoading && "⏳"}
+                    {isLoading && "⏳"}
                     
-                    {isLoading && "Predict Result"}
+                    {!isLoading && "Predict Result"}
                     
 
                     
