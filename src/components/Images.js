@@ -85,13 +85,13 @@ export default function Images() {
                 >
                     {images.map((img, index) => (
 
-                        <motion.div className='grid grid-cols-5 p-1 border flex justify-center' 
+                        <motion.div className='grid grid-cols-5 p-1 border justify-center' 
                             key={index} 
                             layoutId={ img.urls.regular }
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1, transition: { duration: 2 } }}
                         >
-                            <Image 
+                            <Image className='grid' 
                                 show={() => setShowPreview( img.urls.regular )}
                                 image={ img.urls.regular } 
                                 handleRemove={handleRemove} 
